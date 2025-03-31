@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos de Moda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Productos de Moda</h1>
+    </header>
+    <div class="container">
+        <!-- Mensaje de bienvenida y enlace de logout -->
+        <div class="welcome-message">
+            Bienvenido, {{ current_user.username }}
+            <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+        </div>
+
+        <!-- Botón para agregar un nuevo producto -->
+        <a href="{{ url_for('add_product') }}" class="btn">Agregar Nuevo Producto</a>
+
+        <!-- Tabla de productos -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Talla</th>
+                    <th>Color</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for producto in productos %}
+                <tr>
+                    <td>{{ producto.nombre }}</td>
+                    <td>{{ producto.descripcion }}</td>
+                    <td>{{ producto.precio }}</td>
+                    <td>{{ producto.talla }}</td>
+                    <td>{{ producto.color }}</td>
+                    <td>
+                        <a href="{{ url_for('edit_product', product_id=producto._id) }}">Editar</a>
+                        <a href="{{ url_for('delete_product', product_id=producto._id) }}">Eliminar</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
