@@ -6,22 +6,46 @@
     <title>Productos de Moda</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        /* Estilos de respaldo por si style.css no carga */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .welcome-message {
+            margin-bottom: 20px;
+            text-align: right;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Productos de Moda</h1>
     </header>
     <div class="container">
-        <!-- Mensaje de bienvenida y enlace de logout -->
         <div class="welcome-message">
-            Bienvenido, {{ current_user.username }}
-            <a href="{{ url_for('logout') }}">Cerrar sesión</a>
+            Bienvenido, <strong>{{ current_user.username }}</strong> | 
+            <a href="{{ url_for('logout') }}" style="color: #d9534f;">Cerrar sesión</a>
         </div>
 
-        <!-- Botón para agregar un nuevo producto -->
-        <a href="{{ url_for('add_product') }}" class="btn">Agregar Nuevo Producto</a>
+        <a href="{{ url_for('add_product') }}" class="btn">➕ Agregar Nuevo Producto</a>
 
-        <!-- Tabla de productos -->
+        {% if productos %}
         <table>
             <thead>
                 <tr>
@@ -38,18 +62,30 @@
                 <tr>
                     <td>{{ producto.nombre }}</td>
                     <td>{{ producto.descripcion }}</td>
-                    <td>{{ producto.precio }}</td>
+                    <td>${{ "%.2f"|format(producto.precio) }}</td>
                     <td>{{ producto.talla }}</td>
                     <td>{{ producto.color }}</td>
                     <td>
-                        <a href="{{ url_for('edit_product', product_id=producto._id) }}">Editar</a>
-                        <a href="{{ url_for('delete_product', product_id=producto._id) }}">Eliminar</a>
+                        <a href="{{ url_for('edit_product', product_id=producto.id) }}" class="action-btn">✏️ Editar</a>
+                        <a href="{{ url_for('delete_product', product_id=producto.id) }}" class="action-btn" onclick="return confirm('¿Eliminar este producto?')">🗑️ Eliminar</a>
                     </td>
                 </tr>
                 {% endfor %}
             </tbody>
         </table>
+        {% else %}
+        <p class="no-products">No hay productos registrados.</p>
+        {% endif %}
     </div>
+
+    <script>
+        // Confirmación antes de eliminar
+        document.querySelectorAll('.action-btn[onclick]').forEach(btn => {
+            btn.onclick = function() {
+                return confirm('¿Estás seguro de querer eliminar este producto?');
+            };
+        });
+    </script>
 </body>
 </html>
 
