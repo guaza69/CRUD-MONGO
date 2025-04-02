@@ -216,6 +216,7 @@
             margin-bottom: 10px;
         }
     }
+    
     .welcome-message {
         position: absolute; /* Posiciona el elemento de manera absoluta */
         top: 10px; /* Distancia desde la parte superior */
@@ -223,4 +224,4 @@
     }
 
 
-    
+
