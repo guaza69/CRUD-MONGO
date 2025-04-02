@@ -1,52 +1,101 @@
 <h2 align="center">🛍️ Gestión de Productos de Moda con Flask y MongoDB  </h2> 
 <br>
+<p align="center">Un sistema web para gestionar productos de moda, permitiendo agregar, editar, eliminar y visualizar productos con autenticación de usuarios.</p>
+
 ![CRUDs](https://github.com/user-attachments/assets/617254db-24f4-450b-8694-4ffaee62af2c)
 
-<p align="center">Un sistema web para gestionar productos de moda, permitiendo agregar, editar, eliminar y visualizar productos con autenticación de usuarios.</p>
+
 <br>
 <br>
 <h2 align="center">🚀 Características </h2>
 <br>
 
-**<p align="center">✅ Registro e inicio de sesión de usuarios  
-✅ Autenticación con Flask-Login  
-✅ Gestión de productos (CRUD: Crear, Leer, Actualizar, Eliminar)  
-✅ Base de datos con MongoDB  
-✅ Interfaz simple y funcional  </p>
+<p align="center">✅ Registro e inicio de sesión de usuarios  <br>
+✅ Autenticación con Flask-Login   <br>
+✅ Gestión de productos (CRUD: Crear, Leer, Actualizar, Eliminar)  <br> 
+✅ Base de datos con MongoDB   <br>
+✅ Interfaz simple y funcional </p>
 
 <br>
 <br>
 <h2 align="center">📊Diagrama de casos de uso📊</h2> 
 <br>
 
-![CRUDs](https://github.com/user-attachments/assets/dc738b0b-d42a-4d01-a22c-4be3c5408da9)
+![DIAGRAMA](https://github.com/user-attachments/assets/ca714349-181c-4372-8936-89411c279d63)
+
+<br>
+<h2 align="center">📂 Estructura del Proyecto</h2>
+
+<p align="center">
+    <pre>
+📦 tu-proyecto  
+ ┣ 📂 static/ 🎨 # Archivos CSS, imágenes y recursos estáticos  
+ ┃ ┗ 📜 style.css 🎨 # Estilos de la aplicación  
+ ┣ 📂 templates/ 🖥️ # Plantillas HTML  
+ ┃ ┣ 📜 index.html 📄 # Página principal  
+ ┃ ┣ 📜 login.html 🔑 # Página de inicio de sesión  
+ ┃ ┣ 📜 register.html 📝 # Página de registro  
+ ┃ ┣ 📜 add_product.html ➕ # Formulario para agregar productos  
+ ┃ ┗ 📜 edit_product.html ✏️ # Formulario para editar productos  
+ ┣ 📂 venv/ 🐍 # Entorno virtual de Python  
+ ┣ 📜 app.py 🚀 # Código principal de la aplicación Flask  
+ ┣ 📜 requirements.txt 📦 # Dependencias del proyecto  
+ ┗ 📜 README.md 📖 # Documentación del proyecto  
+    </pre>
+</p>
+<br>
 
 
-**<p align="center">🛠️Tecnologías utilizadas🛠️** <br><br>.💻.<br><br>
-  📌**Backend:** Flask (Python). <br>➖<br>
-  📌**Base de datos:** MongoDB, gestionado con MongoDB Compass. <br>➖<br>
-  📌**Frontend:** HTML y CSS estilizado. <br>➖<br>
-  📌**Interactividad:** Mensajes dinámicos con Flash. <br>➖<br>
-  📌**Servidor local:** Flask en modo debug. </p>
+
+<div align="center">
+
+  # 🛠️ Tecnologías utilizadas 🛠️  
+
+  ♻️ **Flask** (Framework web de Python)  
+
+   🟣 **MongoDB** (Base de datos NoSQL)  
+   🎨 **HTML, CSS y JavaScript** (Frontend)  
+   🔐 **Flask-Login** (Autenticación de usuarios)  
+   🛠 **Bootstrap / Poppins (fuente Google)** (Diseño responsivo)  
+
+</div>
+
+
     
 <br>
 <br>
 
-<h2 align="center">⚙️Instalación y configuración⚙️</h2>
-<br>
+<div align="center">
 
-**<p align="center">1️⃣. Clona el repositorio:** git clone https://github.com/usuario/bmw-concesionario.git cd bmw-concesionario. <br>➖<br>
-**2️⃣. Instala las dependencias requeridas:** pip install flask pymongo. <br>➖<br>
-**3️⃣. Asegúrate** de tener MongoDB ejecutándose (puerto por defecto: 27017). <br>➖<br>
-**4️⃣. Lanza la aplicación:** python app.py. <br>➖<br>
-**5️⃣. Abre** tu navegador y ve a http://127.0.0.1:5000.</p>
-    
-<br>
-<br>
+## ⚙️ Requisitos Previos ⚙️  
 
-<h2 align="center">👤Autor👤</h2> 
+Antes de instalar el proyecto, asegúrate de tener lo siguiente:  
 
-**<p align="center">Creado por Momo**, apasionado por el desarrollo web y diseño de interfaces atractivas. 🎨💻</p>
+✅ **Python 3.x** instalado  
+✅ **Asegúrate de tener MongoDB** ejecutándose (puerto por defecto: `27017`)  
+✅ **MongoDB en ejecución**  
+✅ **Pip actualizado**  
+
+![giphy](https://github.com/user-attachments/assets/eff836c8-c030-4124-b24f-c82aea30cb3f)
+
+
+
+
+<div align="center">
+
+<h2>🖥️ Uso del Proyecto</h2>
+
+<p>
+  <strong>🔐 Registro/Login:</strong>  
+  Regístrate y/o inicia sesión para acceder a la gestión de productos.  
+  <br><br>
+  <strong>📦 Gestión de Productos:</strong>  
+  Agrega, edita o elimina productos desde la interfaz.
+</p>
+
+</div>
+
+
 
 <br>
 <br>
@@ -60,7 +109,11 @@
 
 <h2 align="center">📸Capturas de pantalla📸</h2> 
 
-**<p align="center">Página principal del sistema: ![Main Page](static/img/MainPage.png)**</p>
+**<p align="center">INTERFAZ</p>
+![login](https://github.com/user-attachments/assets/e1130d62-f4d5-47bc-86bc-c9a8454edce6)
+![interfaz](https://github.com/user-attachments/assets/522a843b-312f-49d2-9761-c3539f716059)
+
+
 
 <br>
 <br>
@@ -74,12 +127,16 @@
 
 <h2 align="center">📎Contáctate conmigo📎</h2>
 
-**<p align="center">📧Correo electrónico:** juancpm797@gmail.com <br>➖<br>
-**🔑GitHub User:** MomoC7 <br>➖<br>
-**📲Teléfono:** +57 3246014321
+**<p align="center">📧Correo electrónico:** jguaza@gmail.com<br>➖<br>
+**🔑GitHub User:** Jose Julian Guaza Botero <br>➖<br>
+**📲Teléfono:** +57 3012321004
 </p>
 
 <br>
 <br>
+
+![hora](https://github.com/user-attachments/assets/2b695dc2-f0a6-4bba-a705-871e3064898b)
+
+
 
 **<h1 align="center">😁¡Muchas gracias por el apoyo!😁</h1>**
