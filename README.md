@@ -1,26 +1,26 @@
-<h2 align="center">🚘¡Bienvenido al BMW Concesionario!🚘</h2> 
+<h2 align="center">🛍️ Gestión de Productos de Moda con Flask y MongoDB  </h2> 
 <br>
-<p align="center">Este es un sistema de gestión diseñado para concesionarios que buscan una herramienta eficaz para manejar sus inventarios de vehículos. Con funcionalidades avanzadas como búsqueda dinámica, paginación, filtros y diseño estilizado, este proyecto combina potencia y estética para ofrecer una experiencia de usuario impecable.</p>
+![CRUDs](https://github.com/user-attachments/assets/617254db-24f4-450b-8694-4ffaee62af2c)
+
+<p align="center">Un sistema web para gestionar productos de moda, permitiendo agregar, editar, eliminar y visualizar productos con autenticación de usuarios.</p>
 <br>
 <br>
-<h2 align="center">🌟Características principales🌟</h2>
+<h2 align="center">🚀 Características </h2>
 <br>
 
-**<p align="center">📌Gestión CRUD:** Agrega, edita y elimina vehículos fácilmente.  <br>➖<br>📌
-**Filtros avanzados:** Filtra autos por rango de precios y utiliza una búsqueda dinámica.  <br>➖<br>📌
-**Ordenamiento dinámico:** Ordena los autos por marca, modelo, año o precio.  <br>➖<br>📌
-**Paginación inteligente:** Navega cómodamente entre registros sin redundancias.  <br>➖<br>📌
-**Alertas dinámicas:** Feedback visual para acciones exitosas o errores.  <br>➖<br>📌
-**Estilización moderna:** Diseños visualmente atractivos usando CSS responsivo.  <br>➖<br>📌
-**Conexión robusta a MongoDB:** Base de datos conectada vía MongoDB Compass.]  <br>
-(https://github.com/MomoC7/Proyecto_BMW_Concesionario)</p>
+**<p align="center">✅ Registro e inicio de sesión de usuarios  
+✅ Autenticación con Flask-Login  
+✅ Gestión de productos (CRUD: Crear, Leer, Actualizar, Eliminar)  
+✅ Base de datos con MongoDB  
+✅ Interfaz simple y funcional  </p>
 
 <br>
 <br>
 <h2 align="center">📊Diagrama de casos de uso📊</h2> 
 <br>
 
-![DCU](static/img/DCU.png)
+![CRUDs](https://github.com/user-attachments/assets/dc738b0b-d42a-4d01-a22c-4be3c5408da9)
+
 
 **<p align="center">🛠️Tecnologías utilizadas🛠️** <br><br>.💻.<br><br>
   📌**Backend:** Flask (Python). <br>➖<br>
