@@ -1,0 +1,114 @@
+[33mcommit ca64be738040159191e149627ce059ff4dfafbf3[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mMySQL[m[33m)[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 16:22:32 2025 -0500
+
+    Agrega archivos de imágenes para MySQL
+
+[33mcommit 410a746c131ecbe6c36223e5ac0016945559a1c4[m[33m ([m[1;31morigin/MySQL[m[33m)[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 15:50:49 2025 -0500
+
+    Readme MySQL
+
+[33mcommit d7de12e565642235a4880033553cc44ec3be7e30[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:45:10 2025 -0500
+
+    Mejoras en la hoja de estilos
+    
+    - Se mejoró el diseño del encabezado con efectos de hover y subrayado dinámico.
+    - Se agregaron transiciones suaves a los botones para una mejor experiencia visual.
+    - Se implementaron estilos responsivos para mejorar la compatibilidad con dispositivos móviles.
+    - Se optimizaron los estilos de tablas y formularios con sombras y bordes redondeados.
+    - Se corrigieron redundancias y se optimizó el código CSS.
+
+[33mcommit 69af85122b2c0b1726c15b2ae54bfed49337c66c[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:42:22 2025 -0500
+
+    Mejoras en formulario de edición de productos
+    
+    - Se elimina la acción en el formulario, permitiendo reutilización en diferentes rutas.
+    - Se mantiene la carga dinámica de datos del producto a editar.
+    - Se asegura el uso del token CSRF para protección contra ataques.
+    - Se incluyen restricciones en los campos de entrada (precio mínimo, valores requeridos).
+    - Se mejora la estructura para mayor claridad y mantenibilidad.
+
+[33mcommit 7f68a2752ebf1547ca7b9e703c46c32617a3707c[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:38:24 2025 -0500
+
+    Formulario para edición de productos con Flask
+    
+    - Se implementa un formulario para editar productos registrados en la base de datos.
+    - Se cargan los datos actuales del producto en los campos del formulario.
+    - Se añade validación en el frontend para evitar envíos vacíos.
+    - Se incluye un token CSRF para mayor seguridad en los envíos de datos.
+    - Se agrega un enlace para volver a la lista de productos.
+    - Se incorporan efectos visuales en los campos del formulario al recibir y perder el foco.
+
+[33mcommit 8f752f1890b3beadb524b53257a201ff79943edb[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:35:56 2025 -0500
+
+    Interfaz de listado y gestión de productos con Flask
+    
+    - Se crea una interfaz para listar los productos registrados en la base de datos.
+    - Se implementa una tabla dinámica que muestra nombre, descripción, precio, talla y color de cada producto.
+    - Se añaden botones para editar y eliminar productos con confirmación antes de la eliminación.
+    - Se incluye un mensaje de bienvenida con el nombre del usuario autenticado y la opción de cerrar sesión.
+    - Se agregan estilos de respaldo en caso de que no se cargue el archivo style.css.
+
+[33mcommit 7085be068bade3e9a958254ea51c608327ac33bc[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:32:33 2025 -0500
+
+    Diseño de formulario de inicio de sesión con HTML, CSS y Flask-WTF CSRF
+    
+    - Se implementa un formulario de inicio de sesión con un diseño moderno y responsivo.
+    - Se usa Flask-WTF para la protección CSRF con un token oculto en el formulario.
+    - Se incluyen estilos personalizados con fuentes de Google y Boxicons para iconos.
+    - Se añaden mensajes flash para mostrar notificaciones de error o éxito.
+    - Se mejora la experiencia del usuario con efectos visuales y validaciones.
+
+[33mcommit 3ee3751ee55a4f3aab1c83f85e0cae8b89e3dbf0[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Wed Apr 2 00:18:24 2025 -0500
+
+    Implementa CRUD de productos con Flask y MySQL, autenticación y protección CSRF
+    
+    - Se añade autenticación con Flask-Login y sesiones de usuario.
+    - Se implementa un CRUD completo para productos (crear, editar, eliminar, listar).
+    - Se protege la aplicación con CSRF usando Flask-WTF.
+    - Se establece conexión con MySQL y se manejan excepciones para evitar fallos críticos.
+    - Se añaden mensajes flash para mejorar la experiencia del usuario.
+
+[33mcommit b5a93c217a317b9908fc9f78b469f77d378d4102[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Tue Apr 1 14:42:03 2025 -0500
+
+    Prueba por la gva de Guaza
+
+[33mcommit b6aab6290ce20eab24dbcef5fcf1747de3a8594e[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Mon Mar 31 17:33:24 2025 -0500
+
+    S
+
+[33mcommit c238f95bb8ef2093999ba399a471e4350f5bdf65[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Mon Mar 31 17:01:12 2025 -0500
+
+    primer commit
+
+[33mcommit 2afcf945fcbddbee440da1065a4affb63b2e1630[m
+Author: guaza69 <jguaza999@gmail.com>
+Date:   Mon Mar 31 17:13:37 2025 -0500
+
+    Delete README.md
+
+[33mcommit 4da37bc17e0abb8bd77321be8ac09fcb155caf14[m
+Author: julian botero <soyyo@gmail.com>
+Date:   Mon Mar 31 14:37:47 2025 -0500
+
+    primer commit
