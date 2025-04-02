@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS productos (
     talla VARCHAR(20) NOT NULL,
     color VARCHAR(50) NOT NULL
 );
+#cambios
