@@ -21,7 +21,8 @@
 <h2 align="center">📊Diagrama de casos de uso📊</h2> 
 <br>
 
-![DIAGRAMA](https://github.com/user-attachments/assets/ca714349-181c-4372-8936-89411c279d63)
+![mysql](https://github.com/user-attachments/assets/af140c63-74f7-4984-9d52-1613b1fb72a9)
+
 
 <br>
 <h2 align="center">📂 Estructura del Proyecto</h2>
