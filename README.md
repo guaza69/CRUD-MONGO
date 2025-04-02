@@ -21,7 +21,8 @@
 <h2 align="center">📊Diagrama de casos de uso📊</h2> 
 <br>
 
-![mysql](https://github.com/user-attachments/assets/af140c63-74f7-4984-9d52-1613b1fb72a9)
+![mysql](https://github.com/user-attachments/assets/38ba4726-aefa-4c8c-a0ca-6cef9c2b7c75)
+
 
 
 <br>
