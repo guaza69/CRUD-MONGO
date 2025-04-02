@@ -49,12 +49,12 @@
 
 <div align="center">
 
-  # 🛠️ Tecnologías utilizadas 🛠️  
+  # 🧪 Tecnologías utilizadas 🧪  
 
   ♻️ **Flask** (Framework web de Python)  
 
-   🟣 **MongoDB** (Base de datos NoSQL)  
-   🎨 **HTML, CSS y JavaScript** (Frontend)  
+   🟣🔵 **MySQL** (Base de datos relacional)
+   🎭 **HTML, CSS y JavaScript** (Frontend)
    🔐 **Flask-Login** (Autenticación de usuarios)  
    🛠 **Bootstrap / Poppins (fuente Google)** (Diseño responsivo)  
 
@@ -72,8 +72,8 @@
 Antes de instalar el proyecto, asegúrate de tener lo siguiente:  
 
 ✅ **Python 3.x** instalado  
-✅ **Asegúrate de tener MongoDB** ejecutándose (puerto por defecto: 27017)  
-✅ **MongoDB en ejecución**  
+✅ **Asegúrate de tener MYSQLDB** 
+✅ **MySQL configurado con un usuario y base de datos**  
 ✅ **Pip actualizado**  
 
 ![giphy](https://github.com/user-attachments/assets/eff836c8-c030-4124-b24f-c82aea30cb3f)
