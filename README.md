@@ -109,8 +109,12 @@ Antes de instalar el proyecto, asegúrate de tener lo siguiente:
 
 <h2 align="center">📸Capturas de pantalla📸</h2> 
 
-**<p align="center">INTERFAZ</p>
+<p align="center">INTERFAZ</p>
+<h1 align="center">Login</h1>
+
 ![login](https://github.com/user-attachments/assets/e1130d62-f4d5-47bc-86bc-c9a8454edce6)
+<h1 align="center">Sistema</h1>
+
 ![interfaz](https://github.com/user-attachments/assets/522a843b-312f-49d2-9761-c3539f716059)
 
 
